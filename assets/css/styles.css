@@ -1,10 +1,15 @@
 /* abstracts */
 /* base */
+.style {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
 /* components */
 .boton {
   border-radius: 5px;
   width: 350px;
-  height: 30px;
+  height: 50px;
   font-size: 16px;
   font-weight: 800;
 }
@@ -62,6 +67,7 @@
 .boton1 {
   background-color: #63af2b;
   color: white;
+  border-color: white;
 }
 
 .boton2 {
@@ -71,11 +77,12 @@
 
 .sombreado {
   background-color: #eeeeee;
+  border-radius: 1%;
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 5.5vw;
+  height: 5.5vw;
   border-radius: 20%;
 }
 
@@ -105,6 +112,16 @@
   width: 3vw;
 }
 
+.imagenCircle2 {
+  border-radius: 50%;
+  width: 5vw;
+}
+
+.imgb {
+  height: 40px;
+  width: 40px;
+}
+
 .tituloPrincipal {
   font-size: 25px;
   font-weight: 700;
@@ -117,7 +134,7 @@
 
 .comentarioPieDePagina {
   text-align: right;
-  font-size: 14px;
+  font-size: 18px;
   display: inline;
 }
 
@@ -127,6 +144,15 @@
 
 .autor {
   font-size: 18px;
+}
+
+.titulo {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.negra {
+  font-weight: 700;
 }
 
 /* vendors */
