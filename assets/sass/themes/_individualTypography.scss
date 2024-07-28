@@ -1,3 +1,4 @@
+
 .tituloPrincipal {
     font-size: 25px;
     font-weight: 700;
@@ -5,13 +6,14 @@
 }
 
 .tituloFormulario {
-    font-size: 24px;
+    font-size: 35px;
 }
 
 .comentarioPieDePagina {
     text-align: right;
     font-size: 18px;
     display: inline;
+    font-weight: 500;
 }
 
 .parrafo {
@@ -19,8 +21,10 @@
 }
 
 .autor {
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
 }
+
 
 .titulo {
    font-size: 27px;
@@ -28,9 +32,15 @@
 }
 
 .negra {
-    font-weight:700;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
 }
 
-    
+.title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
 
 

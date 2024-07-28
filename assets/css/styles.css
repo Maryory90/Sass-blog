@@ -6,6 +6,14 @@
 }
 
 /* components */
+.btn-success {
+  border-radius: 5px;
+  width: 350px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
 .boton {
   border-radius: 5px;
   width: 350px;
@@ -40,19 +48,23 @@
 
 .inputSubscripcion {
   width: 22%;
-  height: 40px;
+  height: 50px;
   margin-left: 10%;
   font-size: 20px;
+  border-radius: 7px;
+  border-color: white;
 }
 
 .botonSubscripcion {
   color: black;
   background-color: #cccccc;
-  height: 40px;
-  width: 120px;
+  height: 50px;
+  width: 160px;
   margin-left: 50%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 800;
+  border-radius: 7px;
+  border-color: white;
 }
 
 /* layout */
@@ -64,6 +76,12 @@
 
 /* pages */
 /* themes */
+.btn {
+  background-color: #63af2b;
+  color: white;
+  border-color: white;
+}
+
 .boton1 {
   background-color: #63af2b;
   color: white;
@@ -81,9 +99,13 @@
 }
 
 .logo {
-  width: 5.5vw;
-  height: 5.5vw;
+  width: 4vw;
+  height: 4vw;
   border-radius: 20%;
+}
+
+.lineaNav {
+  margin-top: 0px;
 }
 
 .lineaAcoplado {
@@ -109,17 +131,21 @@
 
 .imagenCircle {
   border-radius: 50%;
-  width: 3vw;
+  width: 2vw;
 }
 
 .imagenCircle2 {
   border-radius: 50%;
-  width: 5vw;
+  width: 3vw;
 }
 
 .imgb {
   height: 40px;
   width: 40px;
+}
+
+.tam {
+  height: 90px;
 }
 
 .tituloPrincipal {
@@ -129,13 +155,14 @@
 }
 
 .tituloFormulario {
-  font-size: 24px;
+  font-size: 35px;
 }
 
 .comentarioPieDePagina {
   text-align: right;
   font-size: 18px;
   display: inline;
+  font-weight: 500;
 }
 
 .parrafo {
@@ -143,7 +170,8 @@
 }
 
 .autor {
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .titulo {
@@ -152,7 +180,15 @@
 }
 
 .negra {
+  color: black;
+  font-style: normal;
   font-weight: 700;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
 }
 
 /* vendors */
